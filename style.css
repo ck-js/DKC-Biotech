@@ -72,7 +72,7 @@ a {
 
 .logo {
     height: 29rem;
-    background: repeat center/20% url('logo.JPG');
+    /* background: repeat center/20% url('./assets/logo.JPG'); */
     
     color: black;
     
@@ -105,7 +105,7 @@ height: 100%;
 width: 100%;
 object-fit: cover;
 object-position: center;
-    background: repeat center/100% url('./Assets/puppies.jpg');
+    background: repeat center/100% url('./assets/puppies.jpg');
     opacity: 0.5;
     z-index: -1;
     

@@ -22,14 +22,17 @@ html {
 
 }
 
+@font-face {
+    font-family: moonkids;
+    src: url(./assets/moonkids.ttf);
+}
+
 body {
 
     background-color: rgB(16	23	40);	
     color: whitesmoke;
     height: 100vh;
 }
-
-
 
 .nav-container {
     height: 100px;
@@ -43,6 +46,18 @@ align-items: center;
 column-gap: 5vw;
 
 }
+.nav-logo div {
+    font-family: moonkids;
+    color: white;
+    
+}
+
+#dkc {
+    color: rgb(249, 160, 174);
+    font-size: 2rem;
+
+}
+
 header{
     position: fixed;
     top: 0;
@@ -56,7 +71,7 @@ z-index: 2;
 }
 .nav-links li:hover{
     text-decoration: underline purple;
-border: 2px solid white;
+border: 2px solid rgb(248, 158, 173);
 border-radius: 10px;
 
 
@@ -106,6 +121,7 @@ width: 100%;
 object-fit: cover;
 object-position: center;
     background: repeat center/100% url('./assets/puppies.jpg');
+    
     opacity: 0.5;
     z-index: -1;
     
@@ -125,6 +141,7 @@ object-position: center;
     
     text-transform: uppercase;
     font-weight: normal;
+    font-family: monospace;
 }
 .sub-heading {
     font-size: calc(1.6rem + 2vw);
@@ -430,5 +447,5 @@ font-size: 2rem;
 /* position: relative;
 top: 1em; */
 padding: 0.5em;
-
+font-family: moonkids;
 }

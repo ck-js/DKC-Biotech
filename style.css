@@ -24,7 +24,7 @@ html {
 
 @font-face {
     font-family: moonkids;
-    src: url(./assets/moonkids.ttf);
+    src: url('./assets/moonkids.ttf');
 }
 
 body {
@@ -263,7 +263,20 @@ height: 100%;
 border-radius: 30%;
 }
 
+/* #amzymes-bg {
+    background-color: #fff;
+    margin-bottom: 200px;
 
+} */
+
+.amzymes-bg {
+    background: repeat-x center/40% url('./assets/logo.JPG');
+    height: 300px;
+border-radius: 20%;
+margin-bottom: 200px;
+margin-top: 100px;
+
+}
 
     .section-4-container {
         /* height: 800rem; */
@@ -362,7 +375,7 @@ margin-bottom: 100px;
 }
 
 .line-button img {
-    width: calc(50px + 5vw);
+    width: calc(40px + 5vw);
     height: auto;
     background: transparent;
     border-radius: 50%;
@@ -371,8 +384,16 @@ margin-bottom: 100px;
     right: 0;
 
 }
+.facebook-button img {
+    width: calc(28px + 5vw);
+    height: auto;
+    background: transparent;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 110px;
+    right: 0;
 
-
+}
 
 .section-5-container {
     height: auto;

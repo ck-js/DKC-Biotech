@@ -157,20 +157,22 @@ font-size: calc(0.5rem + 2vw);
 
 } 
 #blog-entries-container {
-    width: 90vw;
+    width: 100vw;
     height: 200vh;
     /* border: 10px solid yellow; */
     background-color: var(--dark-font-color);
 display: flex;
 align-items: center;
-justify-content: center;
+justify-content: space-around;
 flex-direction: column;
-row-gap: 100px;
+padding-top: 100px;
 
 }
 .entries-header-title-wrapper h2 {
-border: 5px solid white;
-
+/* border: 5px solid white; */
+margin-bottom: 100px;
+text-align: center;
+font-size: var(--sub-heading-font-size);
 }
 
 .blog-card-container {
@@ -185,7 +187,7 @@ height: 600px;
     }
     
     .card-image-container {
-        border: 5px solid white;
+        /* border: 5px solid white; */
 height: 300px;
 width: 100%;
 position: relative;
@@ -215,12 +217,12 @@ object-position: center;
 }
 
         .card-content-container #blog-title {
-            color: green;
+
             margin-top: 20px;            
             
         }
         .card-content-container #blog-text {
-            color: green;
+            
             margin-top: 20px;
             
         }

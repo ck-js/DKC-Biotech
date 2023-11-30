@@ -3,6 +3,7 @@
     --sub-heading-font-size: calc(1.6rem + 1vw);
     --p-font-size: calc(0.5rem + 1vw);
 --dark-font-color: rgB(16	23	40);
+--light-font-color: white;
 --high-opacity: 0.8;
 }
 
@@ -487,4 +488,20 @@ font-size: 2rem;
 top: 1em; */
 padding: 0.5em;
 font-family: moonkids;
+}
+
+
+/* style for blog.html */
+
+#blog-page-body  {
+    height: 100vh;
+    width: 100vw;
+background-color: white;
+color: green;
+display: inline;
+
+}
+#blog-page-body h1{
+font-size: 200px;
+
 }

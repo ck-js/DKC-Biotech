@@ -226,3 +226,26 @@ object-position: center;
             margin-top: 20px;
             
         }
+
+        .footer-container {
+            height: 20rem;
+            display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 0 20px 0;
+        
+        }
+        
+        .footer-logo-container {
+            /* border: 3px solid white; */
+        
+        }
+        
+        .footer-logo {
+        font-size: 2rem;
+        /* position: relative;
+        top: 1em; */
+        padding: 0.5em;
+        font-family: moonkids;
+        }
+        

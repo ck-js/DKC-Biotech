@@ -58,13 +58,18 @@ row-gap: 15px;
     width: 100%;
     outline: 3px solid white;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
+}
+#test {
+    margin-left: auto;
+    
 }
 #mobile-menu {
-    
+    margin-left: auto;
 }
 .nav-links {
-    
+display: none;    
 }
 .nav-links ul {
     display: flex;

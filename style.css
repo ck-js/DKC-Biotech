@@ -45,7 +45,7 @@ width: 100%;
     height: auto;
     width: 100%;
 background-color: darkgreen;
-padding-top: 30px;
+padding-top: 10px;
 padding-bottom: 10px;
 display: flex;
 flex-direction: column;
@@ -56,7 +56,7 @@ row-gap: 15px;
 }
 .nav-logo {
     width: 100%;
-    outline: 3px solid white;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,9 +115,8 @@ a {
 
  .bg-container {
     
-    position: relative;
     height: 100%;
-    width: 100;
+    
     display: flex;
     justify-content: center;
     align-items: center ;
@@ -125,13 +124,13 @@ a {
     
 }
 
- .bg-puppies {
+ .bg-section-1 {
     position: absolute;
 height: 100%;
 width: 100%;
 object-fit: cover;
 object-position: center;
-    background: repeat center/100% url('./assets/puppies.jpg');
+    
     
     opacity: 0.5;
     z-index: -1;

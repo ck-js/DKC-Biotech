@@ -76,3 +76,24 @@ if (currentSlide.id === 'slide-3') {
 }
 setInterval(nextSlide,2000)
 
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const elements = document.querySelectorAll('.slide-in');
+
+    function checkVisibility() {
+        elements.forEach(element => {
+            const rect = element.getBoundingClientRect();
+            if (rect.top < window.innerHeight && rect.bottom > 0) {
+                element.classList.add('visible');
+            }
+        });
+    }
+
+    window.addEventListener('scroll', checkVisibility);
+    checkVisibility(); // Initial check in case elements are already in view
+});
+
+
+
+

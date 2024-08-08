@@ -32,7 +32,7 @@ body {
 
     background-color: rgB(16	23	40);	
     color: whitesmoke;
-    height: 100vh;
+    
     width: 100vw;
 }
 header{
@@ -112,6 +112,7 @@ a {
     align-items: center;
     flex-direction: column;
     padding: 100px 0;
+    text-align: center;
 }
 
 
@@ -238,16 +239,8 @@ font-size: calc(0.5rem + 2vw);
     row-gap: 5px;
 }
 
-
-
-
-
-
-
-
 #carousel-container {
-    outline: 3px solid yellowgreen;
-margin: 200px 0;
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -259,8 +252,6 @@ margin: 200px 0;
     justify-content: center;
     align-items: center;
 }
-
-
 .current-slide {
     display: flex;
     justify-content: center;
@@ -283,6 +274,15 @@ img {
     flex-direction: column;
     text-align: center;
 }
+
+#microorganisms-container img {
+    width: 80%;
+    height: 80%;
+}
+
+
+    
+
 
 
 

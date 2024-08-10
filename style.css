@@ -246,7 +246,49 @@ font-size: calc(0.5rem + 2vw);
     height: 50%;
 } */
 
+/* overall style */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
 
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Desktop view */
+@media (min-width: 768px) {
+    table {
+        font-size: 18px;
+        
+    }
+}
+
+/* Mobile view */
+@media (max-width: 767px) {
+    table {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    th, td {
+        padding: 12px 8px;
+    }
+
+    /* Optional: Make table scrollable horizontally */
+    .table-container {
+        overflow-x: auto;
+    }
+}
 
 
 

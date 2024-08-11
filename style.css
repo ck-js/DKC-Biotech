@@ -336,6 +336,16 @@ img {
     text-align: center;
     row-gap: 15px;
 }
+
+#catalog-1-container .card-items {
+margin: 25px 0;
+}
+
+
+
+
+
+
 .customer-container h1 {
     margin-bottom: 25px;
 }

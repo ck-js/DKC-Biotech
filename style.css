@@ -1,26 +1,23 @@
 :root {
-    --heading-font-size: calc(0.7rem + 1vw) ;
-    --sub-heading-font-size: calc(1.6rem + 1vw);
-    --p-font-size: calc(0.5rem + 1vw);
+    --heading-font-size: 38px;
+    --sub-heading-font-size: 18px;
+    /* --p-font-size: calc(0.5rem + 1vw); */
 --dark-font-color: rgB(16	23	40);
 --light-font-color: white;
 --high-opacity: 0.8;
+--green-color: #76A84D;
+--blue-color: #3BB6C7;
+--gold-color: #D09F5A
 }
 
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
-    
+    margin: 0; 
 }
-
 html {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
-    font-size: 16px;
-    padding: 0;
-    margin: 0;
-    height: 100vh;
-
+    font-size: 16px;   
 }
 
 @font-face {
@@ -29,10 +26,8 @@ html {
 }
 
 body {
-
-    background-color: rgB(16	23	40);	
-    color: whitesmoke;
-    
+    background-color: var(--dark-font-color);
+    color: var(--light-font-color);    
     width: 100vw;
 }
 header{
@@ -44,7 +39,7 @@ width: 100%;
 .nav-container {
     height: auto;
     width: 100%;
-background-color: darkgreen;
+background-color: var(--blue-color);
 padding-top: 10px;
 padding-bottom: 10px;
 display: flex;
@@ -56,10 +51,10 @@ row-gap: 15px;
 }
 .nav-logo {
     width: 100%;
-
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 #test {
     margin-left: auto;
@@ -67,6 +62,7 @@ row-gap: 15px;
 }
 #mobile-menu {
     margin-left: auto;
+    cursor: pointer;
 }
 .nav-links {
 display: none;    
@@ -80,7 +76,7 @@ text-align: center;
     
 }
 .nav-links li:hover{
-    text-decoration: underline purple;
+    background-color: var(--gold-color);
 border: 2px solid rgb(248, 158, 173);
 border-radius: 10px;
 
@@ -148,7 +144,6 @@ overflow: hidden;
 
 .bg-content {
     position: relative;
-    color: white;
     z-index: 1;
     text-align: center;
     
@@ -162,22 +157,24 @@ overflow: hidden;
         opacity: 1;
     }
 }
- 
-
+ .bg-content a {
+    margin-top: 25px;
+    margin-left: 100px;
+ }
 .heading {
-    font-size: calc(0.7rem + 1.5vw) ;
-    
+    font-size: var(--sub-heading-font-size);
     text-transform: uppercase;
     font-weight: normal;
     font-family: monospace;
+    color: var(--gold-color);
 }
 .sub-heading {
-    font-size: calc(1.6rem + 2vw);
+    font-size: var(--heading-font-size);
     font-weight: bold;
 
 }
 .sub-heading>span {
-    color: black;
+    color: var(--green-color);
 }
 .bg-content .sub-heading+p {
 color: white;
@@ -188,8 +185,10 @@ font-size: calc(0.5rem + 2vw);
     .nav-ctas {
         display: inline-block;
         padding: 10px 20px;
-        background-color: #007BFF;
+        background-color: var(--green-color);
+        font-size: var(--sub-heading-font-size);
         color: white;
+        text-transform: uppercase;
         text-align: center;
         text-decoration: none;
         border-radius: 5px;
@@ -319,7 +318,7 @@ img {
 .card-containers {
     display: flex;
     flex-direction: column;
-    row-gap: 200px;
+    row-gap: 50px;
 }
 .card-items {
     display: flex;
@@ -329,6 +328,18 @@ img {
     text-align: center;
     row-gap: 15px;
 }
+
+li {
+    list-style-type: none;
+}
+
+#categorization-container h1:nth-of-type(2) {
+    margin-bottom: 25px;
+
+}
+
+
+
 #microorganisms-container img {
     width: 80%;
     height: 80%;

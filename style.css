@@ -29,7 +29,7 @@ body {
     background-color: var(--dark-font-color);
     color: var(--light-font-color);    
     width: 100vw;
-    outline: 3px solid white;
+    
 }
 header{
     position: fixed;

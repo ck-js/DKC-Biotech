@@ -1,11 +1,22 @@
+
 const mobileMenu = document.querySelector('#mobile-menu')
 mobileMenu.addEventListener('click', openCloseMobileMenu)
 const navContainer = document.querySelector('.nav-links')
 navContainer.addEventListener('click', openCloseMobileMenu)
 const languageContainer = document.querySelector('#language-container')
 
+const images = document.querySelectorAll('img');
 
+// Loop through each img element and set the src attribute
+images.forEach((img, index) => {
+    img.src = `./assets/images/dkc-enzymes.jpg`; // Replace with your desired image path
+});
 
+const dkcLogoImg = './assets/images/dkc-logo.jpg';
+const mobileMenuImg = './assets/mobile-menu.png';
+
+images[0].src = dkcLogoImg;
+mobileMenu.src = mobileMenuImg;
 
 
 
@@ -26,11 +37,9 @@ function openCloseMobileMenu() {
 }
 
 const bgSection1 = document.querySelector('.bg-section-1')
-const bg1 = './assets/rename/img4.webp';
+const bg1 = './assets/images/img4.webp';
 bgSection1.style.backgroundImage = `url(${bg1})` 
-// bgSection1.style.backgroundPosition = 'center';
-// bgSection1.style.backgroundSize = 'cover';
-// bgSection1.style.backgroundRepeat = 'no-repeat';
+
 
 
 // function createSection4() {

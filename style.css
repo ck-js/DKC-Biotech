@@ -50,6 +50,13 @@ align-items: center;
 row-gap: 15px;
 
 }
+#language-container {
+    
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: 10px;
+    cursor: pointer;
+}
 .nav-logo {
     width: 100%;
     display: flex;
@@ -62,7 +69,7 @@ row-gap: 15px;
     
 }
 #mobile-menu {
-    margin-left: auto;
+    
     cursor: pointer;
 }
 .nav-links {
@@ -831,7 +838,42 @@ align-items: center;
 #microorganisms-container .card-items {
     width: 30%;
 }
+.cost-effective-container {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .cost-effective-container img {
+        width: 50%;
+        height: 50%;
+    }
+.support-container img {
+    width: 35%;
+    height: 35%;
+}
+.customer-container img {
+    width: 35%;
+    height: 35%;
+}
+#catalog-3-container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#catalog-3-container .card-containers {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#catalog-3-container .card-items {
+ width: 45%;   
 
+}
+
+
+#catalog-3-container img {
+    width: 50%;
+    height: 50%;    
+}
 
 
 

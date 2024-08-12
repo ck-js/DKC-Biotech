@@ -1,5 +1,18 @@
 const mobileMenu = document.querySelector('#mobile-menu')
 mobileMenu.addEventListener('click', openCloseMobileMenu)
+const navContainer = document.querySelector('.nav-links')
+navContainer.addEventListener('click', openCloseMobileMenu)
+const languageContainer = document.querySelector('#language-container')
+
+
+
+
+
+
+
+
+
+
 
 function openCloseMobileMenu() {
   const navLinks = document.querySelector('.nav-links')

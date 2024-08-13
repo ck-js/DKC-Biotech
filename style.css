@@ -298,6 +298,7 @@ th {
         position: fixed;
         bottom: 0;
         left: 10px;
+        
         }
         #facebook-logo {
             width: 25px;
@@ -739,19 +740,19 @@ left: 80%;
 
 }
 #line-logo {
-width: 100px;
-height: 100px;
+width: 75px;
+height: 75px;
 border-radius: 50%;
 position: fixed;
-bottom: 150px;
+bottom: 100px;
 right: 0;
 }
 #facebook-logo {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     position: fixed;
-    bottom: 300px;
+    bottom: 175px;
     right: 0;
     }
 

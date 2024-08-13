@@ -29,7 +29,7 @@ const customer2Element = document.querySelector('#customer-2')
 const dkcLogoImg = './assets/images/dkc-logo.jpg';
 const mobileMenuImg = './assets/mobile-menu.png';
 const lineLogoImg = './assets/line-logo.jpg';
-const facebookLogoImg = './assets/facebook-logo.png';
+const facebookLogoImg = './assets/facebook-logo.PNG';
 const customer1Img = './assets/images/customer-1.jpg';
 const customer2Img = './assets/images/customer-2.jpg';
 

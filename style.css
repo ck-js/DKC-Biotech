@@ -291,11 +291,23 @@ th {
     th, td {
         padding: 12px 8px;
     }
-
-    /* Optional: Make table scrollable horizontally */
-    .table-container {
-        overflow-x: auto;
-    }
+    #line-logo {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 0;
+        left: 10px;
+        }
+        #facebook-logo {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: fixed;
+            bottom: 200px;
+            left: 15px;
+            }
+    
 }
 
 .support-container h2 {
@@ -726,6 +738,22 @@ left: 80%;
 
 
 }
+#line-logo {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+position: fixed;
+bottom: 150px;
+right: 0;
+}
+#facebook-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 300px;
+    right: 0;
+    }
 
 .footer-container {
     

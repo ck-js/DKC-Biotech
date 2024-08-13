@@ -7,16 +7,34 @@ const languageContainer = document.querySelector('#language-container')
 
 const images = document.querySelectorAll('img');
 
-// Loop through each img element and set the src attribute
+// Loop through each img element and set default image
+// images.forEach((img, index) => {
+  
+//     img.src = `./assets/images/dkc-enzymes.jpg`; 
+// });
+
+// second loop for the rest of the images
 images.forEach((img, index) => {
-    img.src = `./assets/images/dkc-enzymes.jpg`; // Replace with your desired image path
+
+    img.src = `./assets/images/dkc-${index + 1}.webp`; // Sets src to img-1.jpg, img-2.jpg, etc.
 });
+
+
+// set images manually for edge cases
+const lineLogoElemet = document.querySelector('#line-logo')
+const facebookLogoElement = document.querySelector('#facebook-logo')
+
 
 const dkcLogoImg = './assets/images/dkc-logo.jpg';
 const mobileMenuImg = './assets/mobile-menu.png';
+const lineLogoImg = './assets/line-logo.jpg';
+const facebookLogoImg = './assets/facebook-logo.png';
 
 images[0].src = dkcLogoImg;
 mobileMenu.src = mobileMenuImg;
+lineLogoElemet.src = lineLogoImg;
+facebookLogoElement.src = facebookLogoImg;
+
 
 
 

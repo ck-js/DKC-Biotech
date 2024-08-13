@@ -23,17 +23,24 @@ images.forEach((img, index) => {
 // set images manually for edge cases
 const lineLogoElemet = document.querySelector('#line-logo')
 const facebookLogoElement = document.querySelector('#facebook-logo')
-
+const customer1Element = document.querySelector('#customer-1')
+const customer2Element = document.querySelector('#customer-2')
 
 const dkcLogoImg = './assets/images/dkc-logo.jpg';
 const mobileMenuImg = './assets/mobile-menu.png';
 const lineLogoImg = './assets/line-logo.jpg';
 const facebookLogoImg = './assets/facebook-logo.png';
+const customer1Img = './assets/images/customer-1.jpg';
+const customer2Img = './assets/images/customer-2.jpg';
+
 
 images[0].src = dkcLogoImg;
 mobileMenu.src = mobileMenuImg;
 lineLogoElemet.src = lineLogoImg;
 facebookLogoElement.src = facebookLogoImg;
+customer1Element.src = customer1Img
+customer2Element.src = customer2Img
+
 
 
 
